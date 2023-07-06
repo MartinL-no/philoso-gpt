@@ -7,7 +7,7 @@ import openai
 
 
 # Add API key here
-openai.api_key = "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"
+openai.api_key = ""
 
 class OpenAI_Session:
   def __init__(self, name, question, question_context, language_style):
